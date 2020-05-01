@@ -1,0 +1,885 @@
+@font-face{
+	font-family:roman;
+	src:url(../fonts/TimesNewRomanPSMT.ttf);
+	
+}
+
+@font-face{
+	font-family:tahoma;
+	src:url(../fonts/ofont.ru_Tahoma.ttf);
+}
+
+
+
+body{
+	margin:0;
+	
+}
+
+
+.header-bg{
+	
+	
+	
+}
+
+.first_layer_div{
+	
+	
+	background-color:white;
+	text-align:center;
+	
+	
+	
+	
+	              
+	
+	
+	
+}
+
+
+
+.img_just{
+	margin-right:110px;
+	margin-left:110px;
+}
+.line1{
+	display:inline-block;
+	
+	
+	
+}
+
+li.li_of_line1{
+	display:inline-block;
+	vertical-align:20px;
+	margin-right:35px;
+	margin-left:35px;
+}
+
+li.li_of_line1 a{
+	color:rgb(43, 156, 65);
+	font-family:"Times New Roman";
+	font-size:20px;
+}
+
+
+
+
+.div_for_controls{
+	margin-top:280px;
+}
+
+
+
+/*second_layer_div*/
+
+.second{
+	text-align:center;
+	position:relative;
+	height:633px;
+	margin:0;
+	
+}
+
+.second_layer_div{
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+.button_class{
+	position:absolute;
+	right:0;
+	left:0;
+	top:270px;
+	
+}
+
+
+.export_leader{
+	font-family:roman;
+	color:white;
+}
+
+.garden{
+	
+	
+	
+}
+
+.podrobnee{
+	
+	
+	width:165px;
+	height:55px;
+	background-color:rgba(255, 255, 255, 0.1);
+	border:solid;
+	border-width:1px;
+	border-color:white;
+	color:white;
+	font-family:"New Times Roman";
+	font-size:19px;
+}
+
+
+/*third layer division*/
+.third_layer_div{
+	
+	height:505px;
+	overflow:hidden;
+	background:url('../image/agro3.png') no-repeat center;
+	
+	
+}
+
+.about_us_div{
+	
+	width:820px;
+	margin:auto;
+	position:relative;
+}
+
+.our_company_div{
+	width:
+}
+
+.nadpis_third{
+	margin-top:50px;
+	color:white;
+	font-size:14px;
+	font-family:"Tahoma";
+}
+
+
+/*---------------------*/
+
+.italian_div{
+	margin-top:50px;
+	width:350px;
+	display:inline-block;
+	
+}
+
+
+.italian_line{
+	position:relative;
+	margin-top:0;
+	margin-bottom:0;
+}
+
+.italian_line::before{
+	content:"";
+	position:absolute;
+	background-color:white;
+	
+	width:90px;
+	height:3px;
+	top:-1px;
+	
+}
+
+.italian_line::after{
+	content:"";
+	position:absolute;
+	background-color:rgb(118,118,118);
+	width:320px;
+	height:1px;
+	left:90px;
+	
+	
+}
+
+.o_nas{
+	color:white;
+	font-family:"Times New Roman";
+	font-size:26px;
+	text-align:left;
+	margin-top:60px;
+	margin-bottom:0;
+	
+	
+}
+
+.lorem{
+	color:white;
+	font-size:14px;
+	font-family:"Tahoma";
+}
+
+.italian_button{
+	background-color:rgba(27,27,27,0.1);
+	border:solid;
+	border-width:1px;
+	border-color:white;	
+	width:125px;
+	height:45px;
+	color:white;
+	font-size:15px;
+	font-family:"Tahoma";
+	margin-top:50px;
+	
+}
+/*non-italian-div*/
+.non-italian_div{
+	position:absolute;
+	display:inline-block;
+	width:400px;
+	margin-top:24px;
+	margin-left:19px;
+}
+
+.ul_non_italian{
+	list-style:none;
+	
+	
+}
+
+.frukti{
+	position:relative;
+	margin-top:8px;
+	margin-bottom:4px;
+}
+	
+
+
+.frukti::before{
+	content:"";
+	position:absolute;
+	background-color:rgb(118,118,118);
+	width:40px;
+	height:1px;
+	top:10px;
+	
+	
+}
+
+.span_frukti{
+	margin-left:60px;
+	color:rgb(214,202,66);
+	font-family:"Tahoma";
+	font-size:16px;
+}
+
+
+
+/*fourth_div_row*/
+
+.fourth_row_div{
+	background:url('../image/background-orange.png');
+	height:670px;
+	text-align:center;
+	overflow:hidden;
+}
+
+.line_export{
+	width:80px; 
+	height:3px; 
+	background-color:rgb(80,80,80); 
+	border:solid;
+	border-width:1px;
+	border-color:rgb(80,80,80); 
+	
+}
+
+.export_tovarov{
+	font-family:"New Times Roman";
+	font-size:26px;
+	color:rgb(27,27,27);
+}
+
+.line2{
+	width:220px;
+	height:380px;
+	display:inline-block;
+	margin-top:60px;
+	margin-right:5px;
+	margin-left:5px;
+	
+	display:inline-block;
+	background-color:white;
+	
+	position:relative;
+}
+
+.content{
+	position:absolute;
+	margin-left:10px;
+	font-family:"Tahoma";
+	font-size:18px;
+}
+
+.soderjanie{
+	position:absolute;
+	
+	top:260px;
+	bottom:0;
+	font-family:"Tahoma";
+	font-size:13px;
+	color:rgb(201,201,201);
+	text-align:left;
+	margin-left:10px;
+	
+	
+	
+}
+
+.icons{
+	position:absolute; 
+	display:inline-block;
+	left:0; 
+	right:0; 
+	bottom:5px; 
+	margin-left:10px;
+}
+
+.icons_name{
+	position:absolute;
+	top:350px;
+	bottom:0;
+	right:0;
+	left:40px;
+	text-align:left;
+	
+	font-family:"Tahoma";
+	font-size:13px;
+	color:rgb(115,115,115);
+}
+
+
+
+
+.back_next{
+	
+	width:100px;
+	height:40px;
+	margin:auto;
+	position:absolute;
+	
+	right:850px;
+	left:0;
+	
+}
+
+.next{
+	
+	width:40px;
+	height:40px;
+	background-color:rgb(230,226,225);
+	position:absolute;
+	right:805px;
+	left:0px;
+	
+	margin:5px auto;
+	
+}
+
+.back{
+	
+	width:40px;
+	height:40px;
+	background-color:white;
+	position:absolute;
+	right:883px;
+	left:0px;
+	
+	margin:5px auto;
+	
+}
+
+.tuda_syuda{
+	vertical-align:middle;
+	font-size:35px;
+	color:rgb(125,123,123);
+}
+
+
+
+/*fifth_row_div*/
+
+.fifth_row_div{                  
+	position:relative;
+	text-align:center;
+	height:765px;
+	overflow:hidden;
+	background:url('../image/background-five.jpg') no-repeat ;
+}
+
+.news_div{
+	margin-top:100px;
+}
+
+.news{
+	font-family:"Times New Roman";
+	font-size:26px;
+}
+
+.line_news{
+	width:100px;
+	height:3px;
+	background-color:rgb(80,80,80);
+}
+
+.news_three_divs{
+	display:block;
+	height:130px;
+	width:900px;
+	
+	margin:0 auto;
+	margin-bottom:15px;
+}
+
+.news_line1{
+	background:url('../image/news_line1.jpg') no-repeat center;
+	margin-top:50px;
+}
+
+
+.news_line2{
+	background:url('../image/news_line2.jpg') no-repeat center;
+}
+
+.news_line3{
+	background:url('../image/news_line3.jpg') no-repeat center;
+	position:relative;
+}
+
+.date_25{
+	color:white; 
+	position:absolute; 
+	font-size:42px; 
+	font-family:'Tahoma';
+	margin-left:-412px;
+	display:inline-block;
+	
+}
+}
+
+.date_news_div{
+	
+
+	
+}
+
+.news_about{
+	color:white;
+	font-size:12px;
+	font-family:"Tahoma";
+	margin:2px auto;
+	display:block;
+	font-weight:bold;
+	text-align:left;
+	
+	
+}
+
+.arxiv_novostey{
+	width:140px;
+	height:40px;
+	background-color:rgba(255,255,255,0.1);
+	border:solid;
+	border-width:1px;
+	font-family:"Tahoma";
+	font-size:12px;
+	color:rgb(96,96,96);
+	border-color:rgb(172,172,172);
+}
+
+
+/*sixth_row_div*/
+
+.line_map{
+	position:relative;
+	margin-left:10px;
+	margin-bottom:125px;
+}
+
+.line_map::before{
+	content:"";
+	width:450px;
+	height:1px;
+	background-color:white;
+	position:absolute;
+	left:0;
+}
+
+.line_map::after{
+	content:"";
+	width:80px;
+	height:3px;
+	background-color:white;
+	position:absolute;
+	left:385px;
+	top:-1px;
+}
+
+
+
+.div_for_left{
+	display:inline-block;
+	position:absolute;
+	left:0;
+	top:182px;
+	
+}
+
+
+
+.sixth_row_div{
+	height:481px;
+	text-align:center;
+	background:url('../image/map.jpg') no-repeat center;
+	position:relative;
+	
+}
+
+
+
+
+
+
+
+.strani_ul1{
+	text-align:left;
+	list-style:none;
+	margin-left:-40px;
+	
+}
+
+
+
+
+
+.green_part{
+	background-color:rgba(40,159,74,0.7);
+	width:675px;
+	height:481px;
+	display:inline-block;
+	margin-left:675px;
+	position:relative;
+
+
+
+}
+
+.div_for_countries{
+	
+}
+
+
+.states1{
+	position:relative;
+	padding-top:5px;
+	padding-bottom:5px;
+	
+}
+
+.states1::before{
+	content:"";
+	position:absolute;
+	background-color:white;
+	height:36px;
+	width:1px;
+	top:10px;
+	
+}
+
+.states1::after{
+	content:"";
+	position:absolute;
+	background-color:white;
+	width:50px;
+	height:1px;
+	left:0;
+	top:16px;
+	
+	
+	
+}
+
+.extra_li1{
+	position:relative;
+	
+	padding-bottom:5px;
+}
+
+.extra_li1::before{
+	content:"";
+	position:absolute;
+	background-color:white;
+	height:40px;
+	width:1px;
+	top:11px;
+	
+	
+}
+
+.extra_li1::after{
+	content:"";
+	position:absolute;
+	background-color:white;
+	width:50px;
+	height:1px;
+	left:0;
+	
+	bottom:15px;
+}
+
+.extra_li2{
+	position:relative;
+	padding-top:5px;
+	
+}
+
+.extra_li2::before{
+	content:"";
+	position:absolute;
+	background-color:white;
+	height:20px;
+	width:1px;
+	bottom:10px;
+	
+	
+	
+}
+
+.extra_li2::after{
+	content:"";
+	position:absolute;
+	background-color:white;
+	width:50px;
+	height:1px;
+	left:0;
+	top:15px;
+	/**/bottom:0;
+}
+
+.span_state1{
+	margin-left:60px;
+	color:white;
+	font-family:"Tahoma";
+	
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+.div_for_right{
+	display:inline-block;
+	margin-right:150px;
+	
+}
+
+
+
+
+
+.strani_ul2{
+	list-style:none;
+}
+
+.states2{
+	position:relative;
+	text-align:left;
+	padding-top:5px;
+	padding-bottom:5px;
+	
+}
+
+.states2::before{
+	content:"";
+	position:absolute;
+	background-color:white;
+	height:43px;
+	width:1px;
+	
+}
+
+.states2::after{
+	content:"";
+	position:absolute;
+	background-color:white;
+	width:50px;
+	height:1px;
+	top:16px;
+	left:0;
+	
+}
+
+.span_state2{
+	margin-left:60px;
+	color:white;
+	font-family:"Tahoma";
+}
+
+.extra_list1{
+	position:relative;
+	text-align:left;
+	padding-bottom:5px;
+	
+}
+
+.extra_list1::before{
+	content:"";
+	position:absolute;
+	background-color:white;
+	height:100px;
+	width:1px;
+	top:11px;
+	left:0;
+}
+
+.extra_list1::after{
+	content:"";
+	position:absolute;
+	background-color:white;
+	width:50px;
+	height:1px;
+	top:11px;
+	left:0;
+}
+
+.extra_list2{
+	position:relative;
+	text-align:left;
+	padding-top:5px;
+}
+
+.extra_list2::before{
+	content:"";
+	position:absolute;
+	background-color:white;
+	width:1px;
+	height:100px;
+	bottom:10px;
+	left:0;
+}
+
+.extra_list2::after{
+	content:"";
+	position:absolute;
+	background-color:white;
+	width:50px;
+	height:1px;
+	left:0;
+	top:16px;
+}
+
+/*----------------------------------------------------------*/
+.nothing{
+	width:670px;
+	height:481px;
+	display:inline-block;
+	margin:0;
+	
+}
+
+.p_strani_na_export{
+	color:white;
+	font-family:"Times New Roman";
+	font-size:26px;
+}
+
+
+
+/*seventh_row_div*/
+
+.seventh_row_div{
+	text-align:center;
+	height:150px;
+	background-color:rgb(28,28,28);
+	overflow:hidden;
+}
+
+.menu_div{
+	display:inline-block;
+	height:150px;
+	margin-right:550px;
+}
+
+.contact_div{
+	display:inline-block;
+	height:150px;
+	
+	
+	
+}
+
+.bottom_menu{
+	display:inline-block;
+	
+}
+
+.li_of_last_line{
+	display:inline-block;
+	
+	
+}
+
+li.li_of_last_line a{
+	text-decoration:none;
+	color:white;
+	font-size:15px;
+	font-family:"Tahoma";
+	margin-right:60px;
+	
+}
+
+
+
+
+.razrabotka_data_site{
+	margin-left:38px;
+	font-family:tahoma;
+	color:rgb(91,91,91);
+	font-size:12px;
+}
+
+
+
+.razrabotka_data_site{
+	text-align:left;
+	margin-top:25px;
+}
+
+
+
+.nomer{
+	margin-bottom:0;
+	font-size:15px;
+	font-family:tahoma;
+	color:rgb(91,91,91);
+	text-align:right;
+	
+}
+
+.address{
+	margin-top:0;
+	font-size:14px;	
+	color:rgb(91,91,91);
+	text-align:right;
+	
+}
+
+.social_site_div{
+	text-align:right;
+	margin-top:30px;
+	
+}
+
+
+
+
+.social_sites{
+	text-align:right;
+	display:inline-block;
+}
